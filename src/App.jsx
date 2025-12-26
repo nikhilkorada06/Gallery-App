@@ -82,14 +82,14 @@ const App = () => {
       <div className='flex justify-center gap-10 m-10 font-light text-l text-black'>
         <button 
             onClick={increaseLimit} 
-            className='active:scale-95 cursor-pointer bg-green-400 px-7 py-2 rounded-xl font-semibold'
+            className='whitespace-nowrap active:scale-95 cursor-pointer bg-green-400 px-7 py-2 rounded-xl font-semibold'
         >
           Show More
         </button>
 
         <button 
             onClick={decreaseLimit} 
-            className='active:scale-95 cursor-pointer bg-green-400 px-7 py-2 rounded-xl font-semibold'
+            className='whitespace-nowrap active:scale-95 cursor-pointer bg-green-400 px-7 py-2 rounded-xl font-semibold'
         >
           Show Less
         </button>
@@ -106,7 +106,7 @@ const App = () => {
         </button>
 
         <h1 
-          className='page-value px-4 py-2 rounded-4xl text-white font-semibold text-xl hover:underline hover:text-blue-500'
+          className='whitespace-nowrap page-value px-4 py-2 rounded-4xl text-white font-semibold text-xl hover:underline hover:text-blue-500'
         >
           Page {page}
         </h1>
