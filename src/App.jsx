@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import axios from 'axios'
 import {useState} from 'react'
 import Card from '../Components/Card.jsx'
-import { Underline } from 'lucide-react'
 
 
 const App = () => {
