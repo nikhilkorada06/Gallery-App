@@ -57,7 +57,15 @@ const App = () => {
   }
 
   return (
+
     <div className='bg-black p-4 h-screen text-white overflow-auto'>
+
+      <header className='flex justify-center mt-1 mb-8'>
+        <h1 className='heading-font text-5xl md:text-6xl font-extrabold flex items-center gap-3'>
+          <span className='heading-accent text-green-400'>GALLERY</span>
+          <span className='text-white/90 text-2xl font-medium'>App</span>
+        </h1>
+      </header>
 
 
       {/* <button  

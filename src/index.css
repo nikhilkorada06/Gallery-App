@@ -1,1 +1,28 @@
 @import "tailwindcss";
+
+/* App fonts and heading styles */
+:root{
+	--heading-gradient: linear-gradient(90deg, #ff7eb3 0%, #ffb86b 50%, #7afcff 100%);
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+.heading-font{
+	font-family: 'Playfair Display', serif;
+	background: var(--heading-gradient);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	text-shadow: 0 8px 28px rgba(0,0,0,0.45);
+	letter-spacing: 0.02em;
+}
+
+.heading-accent{
+	display:inline-block;
+	transform: skewX(-6deg);
+	padding: 0.1rem 0.6rem;
+	border-radius: 0.5rem;
+	background: rgba(255,255,255,0.04);
+}
